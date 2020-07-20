@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T04:43:19.987Z" agent="5.0 (Windows)" etag="PhqjpDNB__MYqv9bDf82" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-20T04:47:59.633Z" agent="5.0 (Windows)" etag="ZxtwadnrUJjEEIXAJoNK" version="13.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="10945" dy="8747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="10792" dy="8662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -88,7 +88,7 @@
         <mxCell id="mar_4wM57sWkOd30tIHt-105" value="($$WorkingElements[1].SessionLoggedOutDueToInactivity$ == &#39;Y&#39;)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
           <mxGeometry x="540" y="160" width="500" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mar_4wM57sWkOd30tIHt-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="mar_4wM57sWkOd30tIHt-112" target="mar_4wM57sWkOd30tIHt-118">
+        <mxCell id="mar_4wM57sWkOd30tIHt-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="mar_4wM57sWkOd30tIHt-112" target="mar_4wM57sWkOd30tIHt-118">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="300" as="targetPoint" />
           </mxGeometry>
@@ -96,14 +96,32 @@
         <mxCell id="mar_4wM57sWkOd30tIHt-112" value="Container - load the login screen" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
           <mxGeometry x="1083" y="260" width="260" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="mar_4wM57sWkOd30tIHt-118" target="mar_4wM57sWkOd30tIHt-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-118" value="Session Inactivity timeout management" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
           <mxGeometry x="1083" y="360" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="2" target="mar_4wM57sWkOd30tIHt-121">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2" value="&lt;div&gt;Java Integration - Calculates effective session inactivity timeout period&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SessionTimeoutUtils - getFormattedEffectiveSessionInactivityTimeoutStr&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;glass=0;sketch=0;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
           <mxGeometry x="750" y="360" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00CC00;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="mar_4wM57sWkOd30tIHt-118" target="2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-121" value="Set the variable that controls the display of the session-terminated-due-to-inactivity notification from the corresponding data item" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;glass=0;sketch=0;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
+          <mxGeometry x="750" y="490" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="mar_4wM57sWkOd30tIHt-123" target="mar_4wM57sWkOd30tIHt-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-123" value="&lt;div&gt;$$!AUTH_SERVER_TYPE$ == &#39;INTERNAL&#39; AND &lt;br&gt;&lt;/div&gt;&lt;div&gt;$$!OIDC_ENABLED$ == &#39;Y&#39; AND $$!OIDC_JW_TOKEN$ != &#39;&#39;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
+          <mxGeometry x="970" y="570" width="486" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-125" value="Set the variable MAIN-SESSION_IS-USER-AUTHENTICATED as &#39;Y&#39;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;glass=0;sketch=0;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
+          <mxGeometry x="680" y="610" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-12" value="Pre Phase Process Level Rule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1330" y="130" width="180" height="20" as="geometry" />
