@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T04:47:59.633Z" agent="5.0 (Windows)" etag="ZxtwadnrUJjEEIXAJoNK" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-20T04:50:37.310Z" agent="5.0 (Windows)" etag="AsHVQA9onq93oGgwhL7M" version="13.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="10792" dy="8662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12404" dy="9552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -117,11 +117,17 @@
         <mxCell id="mar_4wM57sWkOd30tIHt-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="mar_4wM57sWkOd30tIHt-123" target="mar_4wM57sWkOd30tIHt-125">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="mar_4wM57sWkOd30tIHt-7" source="mar_4wM57sWkOd30tIHt-123" target="mar_4wM57sWkOd30tIHt-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-123" value="&lt;div&gt;$$!AUTH_SERVER_TYPE$ == &#39;INTERNAL&#39; AND &lt;br&gt;&lt;/div&gt;&lt;div&gt;$$!OIDC_ENABLED$ == &#39;Y&#39; AND $$!OIDC_JW_TOKEN$ != &#39;&#39;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
           <mxGeometry x="970" y="570" width="486" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-125" value="Set the variable MAIN-SESSION_IS-USER-AUTHENTICATED as &#39;Y&#39;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;glass=0;sketch=0;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
           <mxGeometry x="680" y="610" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-127" value="Go Forward to a named phase: phase Login.Login " style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;glass=0;sketch=0;" vertex="1" parent="mar_4wM57sWkOd30tIHt-7">
+          <mxGeometry x="1058" y="720" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-12" value="Pre Phase Process Level Rule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1330" y="130" width="180" height="20" as="geometry" />
