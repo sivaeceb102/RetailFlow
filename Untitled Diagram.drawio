@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T04:34:21.149Z" agent="5.0 (Windows)" etag="hyR504ZF4fRjwEqmlLEK" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T05:02:20.406Z" agent="5.0 (Windows)" etag="O4Dm6By-pG-tUIngrcNL" version="13.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="12124" dy="9038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="14264" dy="10578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -348,9 +348,6 @@
         <mxCell id="mar_4wM57sWkOd30tIHt-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-151" target="mar_4wM57sWkOd30tIHt-152">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mar_4wM57sWkOd30tIHt-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-151" target="mar_4wM57sWkOd30tIHt-161">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-151" value="&lt;div&gt;Load Language Maps if Enabled&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$!ENABLE_LANGUAGE_MAPS$ == &#39;Y&#39;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1760" y="530" width="340" height="80" as="geometry" />
         </mxCell>
@@ -423,7 +420,8 @@
         <mxCell id="mar_4wM57sWkOd30tIHt-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-52" target="mar_4wM57sWkOd30tIHt-105">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1530" y="945" />
+              <mxPoint x="-848" y="1030" />
+              <mxPoint x="-1530" y="1030" />
               <mxPoint x="-1530" y="350" />
               <mxPoint x="-2360" y="350" />
             </Array>
@@ -433,7 +431,7 @@
           <mxGeometry x="-7450" y="2690" width="4800" height="390" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-189" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="11578" y="-440" width="13642" height="7940" as="geometry" />
+          <mxGeometry x="11578" y="700" width="13642" height="7940" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-187" value="&lt;font style=&quot;font-size: 92px&quot;&gt;Header.ifp&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;fillColor=none;" vertex="1" parent="mar_4wM57sWkOd30tIHt-189">
           <mxGeometry width="13642" height="100" as="geometry" />
@@ -572,7 +570,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-267" value="Reset session data" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-189">
-          <mxGeometry x="1740" y="1893.75" width="170" height="62.5" as="geometry" />
+          <mxGeometry x="1857" y="1893.75" width="170" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="mar_4wM57sWkOd30tIHt-189" source="mar_4wM57sWkOd30tIHt-268" target="mar_4wM57sWkOd30tIHt-269">
           <mxGeometry relative="1" as="geometry" />
@@ -590,19 +588,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-270" value="&lt;div&gt;($$InputParameters[1].UnreadMessageCount$ == &#39;&#39;)&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;OR ($$!MAINSESSION.UNREAD_COUNT$ != &#39;&#39;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-189">
-          <mxGeometry x="1655" y="2000" width="340" height="120" as="geometry" />
+          <mxGeometry x="1772" y="2000" width="340" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="mar_4wM57sWkOd30tIHt-189" source="mar_4wM57sWkOd30tIHt-274" target="mar_4wM57sWkOd30tIHt-276">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-274" value="$$InputParameters[1].UnreadMessageCount$ != &#39;&#39;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-189">
-          <mxGeometry x="1655" y="2180" width="340" height="80" as="geometry" />
+          <mxGeometry x="1772" y="2180" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-275" value="Set global variable MAINSESSION.UNREAD_COUNT value from data item InputParameters[1].UnreadMessageCount" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-189">
-          <mxGeometry x="1362" y="2080" width="243" height="60" as="geometry" />
+          <mxGeometry x="1492" y="2030" width="243" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-276" value="Set data item InputParameters[1].UnreadMessageCount from global variable MAINSESSION.UNREAD_COUNT value" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="mar_4wM57sWkOd30tIHt-189">
-          <mxGeometry x="1362" y="2190" width="243" height="60" as="geometry" />
+          <mxGeometry x="1502" y="2190" width="243" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-185" target="mar_4wM57sWkOd30tIHt-191">
           <mxGeometry relative="1" as="geometry">
@@ -613,6 +611,22 @@
               <mxPoint x="12950" y="-779" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-261" target="mar_4wM57sWkOd30tIHt-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="12950" y="2970" />
+              <mxPoint x="12230" y="2970" />
+              <mxPoint x="12230" y="-170" />
+              <mxPoint x="4222" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-296" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeColor=#000000;strokeWidth=2;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3308" y="2190" width="7450" height="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-297" value="&lt;font style=&quot;font-size: 27px&quot;&gt;Authentication Interface&lt;br&gt;&lt;/font&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;strokeColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="6440" y="2130" width="600" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
