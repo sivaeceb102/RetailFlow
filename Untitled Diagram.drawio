@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T08:51:42.882Z" agent="5.0 (Windows)" etag="ZH-qfFhkG9YATbIUmmQ0" version="13.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-21T09:44:02.489Z" agent="5.0 (Windows)" etag="U396yZ2WCxshzhwUrgfh" version="13.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="11109" dy="8842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -337,7 +337,7 @@
           <mxGeometry x="680" y="-450" width="10380" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-145" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1340" y="350" width="1180" height="1320" as="geometry" />
+          <mxGeometry x="750" y="350" width="2340" height="2680" as="geometry" />
         </mxCell>
         <mxCell id="mar_4wM57sWkOd30tIHt-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-150" target="mar_4wM57sWkOd30tIHt-151">
           <mxGeometry relative="1" as="geometry" />
@@ -1227,10 +1227,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mar_4wM57sWkOd30tIHt-536" value="Execute the Broad Cast Rule for INTERNAL or EXTERNAL inherited authentication" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=1;fillColor=none;strokeColor=#FF8000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1750" y="835" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mar_4wM57sWkOd30tIHt-537" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-529" target="mar_4wM57sWkOd30tIHt-536">
+        <mxCell id="mar_4wM57sWkOd30tIHt-537" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-529" target="mar_4wM57sWkOd30tIHt-540">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="17600" y="10830" />
@@ -1239,10 +1236,127 @@
               <mxPoint x="11360" y="9730" />
               <mxPoint x="11360" y="8030" />
               <mxPoint x="440" y="8030" />
-              <mxPoint x="440" y="770" />
-              <mxPoint x="1930" y="770" />
+              <mxPoint x="440" y="2000" />
+              <mxPoint x="1930" y="2000" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-547" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-539" target="mar_4wM57sWkOd30tIHt-542">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-549" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-539" target="mar_4wM57sWkOd30tIHt-548">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-539" value="&lt;div&gt;Check the Broadcast Rule&lt;/div&gt;&lt;div&gt;$$BROADCAST_MESSAGE$ == &#39;SUCCESS&#39;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1760" y="2180" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-541" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-540" target="mar_4wM57sWkOd30tIHt-539">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-540" value="&lt;div&gt;Execute the Broad Cast Rule for INTERNAL &lt;br&gt;&lt;/div&gt;&lt;div&gt;or EXTERNAL inherited authentication&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1760" y="2070" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-545" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-542" target="mar_4wM57sWkOd30tIHt-543">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-546" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-542" target="mar_4wM57sWkOd30tIHt-544">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-542" value="&lt;div&gt;Login.Login.Evaluation for channel type&lt;/div&gt;&lt;div&gt;$$DEVICE_INFO.isHybrid$ != &#39;Y&#39;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1410" y="2290" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-543" value="Set variable MAINSESSION.CHANNEL_TYPE from value INTERNET" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1290" y="2410" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-544" value="Set variable MAINSESSION.CHANNEL_TYPE from value TCMOBILE" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1680" y="2410" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-548" value="&lt;div&gt;Execute the Broad Cast Rule for INTERNAL &lt;br&gt;&lt;/div&gt;&lt;div&gt;or EXTERNAL inherited authentication&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1760" y="2490" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-550" value="Reset Session Data - Arrangement ID&amp;nbsp; and IO parameters" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1835" y="2610" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-563" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-551" target="mar_4wM57sWkOd30tIHt-552">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-551" value="Do the First call to T24 to get the user details" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1760" y="860" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-564" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-552" target="mar_4wM57sWkOd30tIHt-553">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-552" value="&lt;div&gt;Set Value IRIS_USER_NAME&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set variable MAINSESSION.IRIS_USER_NAME from variable MAINSESSION.USER_NAME-AUTH&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1765" y="987.5" width="330" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-565" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-553" target="mar_4wM57sWkOd30tIHt-554">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-553" value="&lt;div&gt;Set Value IRIS_PASSWORD&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set variable MAINSESSION.IRIS_PASSWORD from variable MAINSESSION.PASSWORD-AUTH&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1765" y="1080" width="330" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-561" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.473;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-554" target="mar_4wM57sWkOd30tIHt-555">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-567" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-554" target="mar_4wM57sWkOd30tIHt-566">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-554" value="&lt;div&gt;Evaluation - check the token enabled IRIS is &lt;br&gt;&lt;/div&gt;&lt;div&gt;configured or not &lt;br&gt;&lt;/div&gt;&lt;div&gt;$$!OIDC_ENABLED$ == &#39;Y&#39;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1740" y="1160" width="380" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-562" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-555" target="mar_4wM57sWkOd30tIHt-556">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-555" value="&lt;div&gt;Set Value - Request header name to do the OIDC authentication&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set variable MAINSESSION.AUTH_HEADER_NAME from variable OIDC_HEADER_NAME&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="1230" width="330" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-560" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-556" target="mar_4wM57sWkOd30tIHt-557">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-556" value="&lt;div&gt;Set Value - Request header value to do the OIDC authentication&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set variable MAINSESSION.AUTH_HEADER_VALUE from variable MAINSESSION.JWT_Value&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="1330" width="330" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-559" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-557" target="mar_4wM57sWkOd30tIHt-558">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-557" value="&lt;div&gt;Evaluation - Check the authentication mode&lt;/div&gt;&lt;div&gt;$$!AUTH_SERVER_TYPE$ == &#39;INTERNAL&#39;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1080" y="1432.5" width="380" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-558" value="&lt;div&gt;set value IRIS_USER_NAME&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set variable MAINSESSION.IRIS_USER_NAME from message $$!USER$&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="1440.75" width="290" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-579" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-566" target="mar_4wM57sWkOd30tIHt-568">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-566" value="Reset External User Details" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1765" y="1300" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-578" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-568" target="mar_4wM57sWkOd30tIHt-571">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-568" value="&lt;div&gt;Call Component - User profile enquiry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;wracustomerprofile.ifp&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1845" y="1340" width="170" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-575" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-571" target="mar_4wM57sWkOd30tIHt-572">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-577" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-571" target="mar_4wM57sWkOd30tIHt-574">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-571" value="&lt;div&gt;Evaluation - result&lt;/div&gt;&lt;div&gt;$$Result[1].OverallResult$ == &#39;0&#39;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1740" y="1448.25" width="380" height="81.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-576" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mar_4wM57sWkOd30tIHt-572" target="mar_4wM57sWkOd30tIHt-573">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-572" value="&lt;div&gt;Set Value - Invalid User&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set data item ErrorHandling[1].ErrorMessage from value Invalid username or password&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1490" y="1521.25" width="330" height="62.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-573" value="&lt;div&gt;Goto Phase - Error - if T24 error is raised&lt;/div&gt;&lt;div&gt;go forward rule to Login.Authentication-Interface&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1490" y="1610" width="330" height="62.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mar_4wM57sWkOd30tIHt-574" value="&lt;div&gt;Set Value - session value for arrangement id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Set variable MAINSESSION.IRIS_ARRANGEMENT_ID from data item ExternalUserDetails[C].Channel[C].Arrangement&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2068" y="1520" width="330" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
